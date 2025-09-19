@@ -71,3 +71,10 @@ td:nth-child(3){
 .starter:hover{
     background-color: #d4d8db;
 }
+a{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 2rem;
+    color: #000000;
+}
