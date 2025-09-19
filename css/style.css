@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    padding-top: 20px;
+    border-collapse: collapse;
+}
+tbody{
+    border: 2px #d4d8db solid;
+}
+th, td{
+    padding: 30px;
+    border: 2px #ffffff solid;
+    justify-content: center;
+    font-weight: bold;
+}
+th:nth-child(1){
+    background-color: #f2f2f2;
+    color: #000000;
+    padding-inline: 50px;
+}
+th:nth-child(2){
+    background-color: #555c66;
+    color: #ffffff;
+}
+th:nth-child(3){
+    background-color: #e7516c;
+    color: #ffffff;
+}
+th:nth-child(4){
+    background-color: #70cf69;
+    color: #ffffff;
+}
+td:nth-child(1){
+    text-align: start;
+}
+td:nth-child(3){
+    background-color: #f5f7fa;
+}
+.empresa{
+    color: #6a3699;
+    border: 3px #d4d8db solid;
+    padding: 15px;
+    font-weight: normal;
+}
+.empresa:hover{
+    background-color: #d4d8db;
+}
+.avancar{
+    background-color: #e7516c;
+    color: #ffffff;
+    border: 3px #d4d8db solid;
+    padding: 15px;
+    font-weight: normal;
+}
+.avancar:hover{
+    background-color: #af2b43;
+}
+.starter{
+    color: #6a3699;
+    border: 3px #d4d8db solid;
+    padding: 15px;
+    font-weight: normal;
+}
+.starter:hover{
+    background-color: #d4d8db;
+}
